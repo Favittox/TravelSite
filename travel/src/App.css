@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.bg{
+  background-image:url("./image/firstimgs/travel.png");
+  background-size:cover;
+  width:100%;
+  height:100vh;
+}
+
+.header{
+  display:flex;
+  margin-left:15%;
+  margin-right:15%;
+}
+
+.explore{
+font-family: Poppins;
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+text-align: left;
+color: white;
+margin-right:auto;
+}
+
+.menu ul{
+  display:flex;
+  list-style: none;
+}
+
+.menu a{
+  text-decoration:none;
+  padding: 10px;
+  color:white;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.menu{
+  margin-top:3%;
+}
+
+.btn{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  background-color:#FFC814;
+  border:none;
+  border-radius:5px;
+  height:56px;
+  width:160px;
+  margin-top:3%;
+}
+
+.txtbig{
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76px;
+  text-align: left;
+  color:#FFFFFF;
+  width:488px;
+  height:228px;
+  margin-left:15%;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.txtsmall{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  width:563px;
+  color:#FFFFFF;
+  margin-left:15%;
+}
+
+.explration{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color:#22283C;
+  background-color:#FFC814;
+  border:none;
+  width:160px;
+  height:56px;
+  margin-left:15%;
+  text-align:center;
+}
+
+.more{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color:#181818;
+  border:none;
+  width:160px;
+  height:56px;
+  margin-left:1%;
+  text-align:center;
+}
+
+.hotelimg{
+  display:flex;
+  width: 30px;
+  height: 30px;
+}
+
+.transportdiv{
+  display:flex;
+  width: 120px;
+  height: 45px;
+  background-color:#FFFFFF;
+  display: flex;
+  border-radius: 4px 4px 0px 0px;
+  border:none;
+  margin-right:10px;
+  justify-content:center;
+  align-items:center;
+  gap: 10px;
+}
+
+.transportdiv:hover{
+  background-color:#FFC814;
+  cursor: pointer;
+}
+
+.hoteltxt{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #1F3347;
+}
+
+.flightimg{
+  display:flex;
+  width: 28px;
+  height: 28px;
+}
+
+.flighttxt{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #1F3347;
+}
+
+.carimg{
+  display:flex;
+  width: 30px;
+  height: 30px;
+}
+
+.cartxt{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #1F3347;
+}
+
+.shipimg{
+  display:flex;
+  width: 30px;
+  height: 30px;
+}
+
+.shiptxt{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color:#1F3347;
+}
+
+.labelfoinput{
+  width: 135px;
+  height: 24px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color:#1F3347;
+}
+
+.input{
+  width: 170px;
+  height: 56px;
+  border-radius: 4px 0px 0px 0px;
+  border:none;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 24px 0px #E4E2EE;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  color: #70717B;
+}
+
+.book-now{
+  width: 160px;
+  height: 56px;
+  border-radius: 4px 0px 0px 0px;
+  border:none;
+  box-shadow: 0px 6px 24px 0px #FFC81466;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color:#22283C;
+  background: #FFC814;
+  display:block;
+  margin-left:2%;
+  margin-right:2%;
+}
+
+.up-section{
+  display:flex;
+  margin-left:15%;
+  margin-top:7%;
+}
+
+.lower-section{
+  display:flex;
+  height: 162px;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 24px 0px #E4E2EE;
+  margin-left:15%;
+  margin-right:15%;
+  gap:10px;
+  align-items:center;
+}
+
+.inputdiv{
+  margin-left:1.5%;
+  margin-right:1.5%;
+  width:13%;
+}
+
+.secondpage{
+  height:100vh;
+}
+
+.girl-image{
+  width: 250px;
+  height: 250px;
+  top: 1250px;
+  left: 450px;
+  border-radius: 14px 0px 0px 0px;
+  border:none;
+  position:absolute;
+}
+
+.water-image{
+  width: 400px;
+  height: 500px;
+  top: 950px;
+  left: 200px;
+  border-radius: 14px 0px 0px 0px;
+  border:none;
+  position:absolute;
+}
+
+.beach-image{
+  width: 351px;
+  height: 442px;
+  top: 1050px;
+  right: 1px;
+  position:absolute;
+}
+
+.text-div{
+  width: 500px;
+  height: 570px;
+  margin-left:46%;
+  margin-top:11%;
+}
+
+.about-us{
+  width: 91px;
+  height: 16px;
+  font-family: Quick Kiss Personal Use;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFC814;
+}
+
+.best{
+  width: 479px;
+  height: 97px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #1F3347;
+  margin-top:1px;
+  margin-bottom:1px;
+}
+
+.gray-text{
+  width: 521px;
+  height: 72px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #9DA1B4;
+}
+
+.we{
+  width: 496px;
+  height: 108px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#9DA1B4;
+  margin-bottom:0px;
+}
+
+.number-text{
+  display:flex;
+  justify-content:space-between;
+}
+
+.experience{
+  width: 88px;
+  height: 45px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#9DA1B4;
+}
+
+.experience-number{
+  width: 67px;
+  height: 28px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#FFC814;
+}
+
+.destination{
+  width: 101px;
+  height: 42px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#9DA1B4;
+}
+
+.destination-number{
+  width: 91px;
+  height: 28px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#FFC814;
+}
+
+.happy{
+  width: 89px;
+  height: 42px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#9DA1B4;
+}
+
+.happy-number{
+  width: 104px;
+  height: 28px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#FFC814;
+}
